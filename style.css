@@ -14,7 +14,7 @@ header {
 }
 
 .chamada {
-  background: rgb(184, 156, 213); /* Cor de fundo lilás da seção de chamada */
+  background: rgb(218, 116, 187); /* Cor de fundo lilás da seção de chamada */
   padding-bottom: 80px; /* Espaço inferior interno */
   padding-top: 80px; /* Espaço superior interno */
   display: flex; /* Usa layout flexível para os filhos */
