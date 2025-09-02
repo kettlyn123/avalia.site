@@ -45,6 +45,6 @@ p {
 
 .categoria-videos img:hover {
   opacity: 1.0; /* Ao passar o mouse, imagem fica visível totalmente */
-  border: 3px solid pink; /* Adiciona borda verde ao passar o mouse */
+  border: 3px solid Green; /* Adiciona borda verde ao passar o mouse */
 }
 
