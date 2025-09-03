@@ -47,4 +47,7 @@ p {
   opacity: 1.0; /* Ao passar o mouse, imagem fica visível totalmente */
   border: 3px solid Green; /* Adiciona borda verde ao passar o mouse */
 }
+.categoria h2 {
+  color: rgb(42,122,228); /* Cor azul para o título da seção */
+}
 
