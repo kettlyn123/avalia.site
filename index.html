@@ -6,8 +6,60 @@
     <title>Site</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body> <!-- Início do corpo da página -->
+    
 
+<style> 
+  body { 
+    font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px; /* Espaço entre o vídeo e o texto */
+            flex-wrap: wrap; /* Permite que o conteúdo quebre para a próxima linha em telas menores */
+        }
+
+        .video-column {
+            flex: 1;
+            min-width: 300px; /* Largura mínima para a coluna do vídeo */
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Proporção 16:9 para vídeos responsivos */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .text-column {
+            flex: 1;
+            min-width: 300px; /* Largura mínima para a coluna do texto */
+        }
+
+        /* Estilos para telas pequenas */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+   
   <header>Sobre o curso de desenvolvimento</header> <!-- Cabeçalho da página com o nome do site -->
 
   <section class="chamada"> <!-- Seção principal com texto e vídeo -->
