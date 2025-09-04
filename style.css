@@ -55,12 +55,12 @@ header {
         .video-container {
             position: relative;
             width: 100%;
-            max-width: 350px; /* Largura máxima para o vídeo */
+            max-width: 300px; /* Largura máxima para o vídeo */
             height: 0;
             padding-bottom: 25.3125%; /* Proporção 16:9 para vídeos responsivos */
             overflow: hidden;
             flex: 1;
-            min-width: 300px; /* Largura mínima para o vídeo */
+            min-width: 200px; /* Largura mínima para o vídeo */
         }
 
         .video-container iframe {
@@ -79,8 +79,8 @@ header {
             }
 .chamada {
   background: rgb(218, 116, 187); /* Cor de fundo lilás da seção de chamada */
-  padding-bottom: 80px; /* Espaço inferior interno */
-  padding-top: 80px; /* Espaço superior interno */
+  padding-bottom: 70px; /* Espaço inferior interno */
+  padding-top: 70px; /* Espaço superior interno */
   display: flex; /* Usa layout flexível para os filhos */
   justify-content: center; /* Centraliza horizontalmente os elementos filhos */
 }
