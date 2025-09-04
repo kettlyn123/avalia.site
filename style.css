@@ -5,11 +5,12 @@ body {
             background-color: rgb(223, 93, 184); /* Cor de fundo suave */
         }
 header {
-  border-bottom: solid 2px rgb(134, 43, 122); /* Cria uma linha rosa abaixo do cabeçalho */
-  padding: 20px; /* Espaçamento interno */
-  font-size: 32px; /* Tamanho do texto do cabeçalho */
-  color: rgb(157, 31, 168); /* Cor azul para o texto do cabeçalho */
-}
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+            margin-bottom: 20px;
+        }
 
 
         .section-intro {
@@ -112,6 +113,6 @@ p {
   border: 3px solid Green; /* Adiciona borda verde ao passar o mouse */
 }
 .categoria h2 {
-  color: rgb(217, 115, 186); /* Cor azul para o título da seção */
+  color: rgb(11, 96, 153); /* Cor azul para o título da seção */
 }
 
