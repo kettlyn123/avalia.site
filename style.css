@@ -55,7 +55,7 @@ header {
         .video-container {
             position: relative;
             width: 100%;
-            max-width: 450px; /* Largura máxima para o vídeo */
+            max-width: 350px; /* Largura máxima para o vídeo */
             height: 0;
             padding-bottom: 25.3125%; /* Proporção 16:9 para vídeos responsivos */
             overflow: hidden;
