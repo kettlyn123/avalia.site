@@ -1,51 +1,165 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre o Curso - Desenvolvimento de Sistemas</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso de Desenvolvimento de Sistemas</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      background: #004080;
+      color: white;
+      padding: 20px;
+    }
+    header .logo {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    .nav-buttons {
+      display: flex;
+      justify-content: center;
+      background: #0066cc;
+      flex-wrap: wrap;
+    }
+    .nav-btn {
+      padding: 15px 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.3s;
+    }
+    .nav-btn:hover, .nav-btn.active {
+      background: #004080;
+    }
+    .content {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section {
+      display: none;
+      animation: fade 0.5s ease-in-out;
+    }
+    .section.active {
+      display: block;
+    }
+    .image-gallery img {
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .video-gallery img {
+      margin: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .video-gallery img:hover {
+      transform: scale(1.05);
+    }
+    @keyframes fade {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="logo">
-                <i class="fas fa-laptop-code"></i>
-            </div>
-            <h1>Curso de Desenvolvimento de Sistemas</h1>
-            <p>Preparando os profissionais de tecnologia do futuro</p>
-        </header>
-        
-        <div class="nav-buttons">
-            <a href="index.html" class="nav-btn active">
-                <i class="fas fa-graduation-cap"></i> Sobre o Curso
-            </a>
-            <a href="ia-tecnologia.html" class="nav-btn">
-                <i class="fas fa-robot"></i> IA e Tecnologia
-            </a>
-            <a href="setec.html" class="nav-btn">
-                <i class="fas fa-users"></i> SETEC
-            </a>
-        </div>
-        
-        <div class="content">
-            <section class="section-intro">
-                <h1>O curso de Desenvolvimento de Sistemas é muito bom, aprendemos várias coisas. Aqui temos computadores disponíveis para todos os alunos, para aprenderem e aperfeiçoar seus trabalhos e os professores sempre estão dispostos a ajudar e a ensinar coisas novas.</h1>
-            </section>
+  <div class="container">
+    <header>
+      <div class="logo"><i class="fas fa-laptop-code"></i></div>
+      <h1>Curso de Desenvolvimento de Sistemas</h1>
+      <p>Preparando os profissionais de tecnologia do futuro</p>
+    </header>
 
-            <section class="image-gallery">
-                <img src="IMG_20250901_180755.jpg" alt="Imagem do laboratório de informática" width="400">
-                <img src="IMG_20250901_180817.jpg" alt="Outra imagem do laboratório" width="400">
-            </section>
-            
-            <section>
-                <h2>O que oferecemos</h2>
-                <p>Nosso curso oferece uma formação completa em desenvolvimento de sistemas, com foco em programação, banco de dados, análise de sistemas e gestão de projetos. Preparamos nossos alunos para os desafios do mercado de trabalho com uma abordagem prática e atualizada.</p>
-                
-                <p>Com laboratórios modernos e professores qualificados, proporcionamos a melhor experiência de aprendizado para formar profissionais capacitados para atuar no mercado de tecnologia.</p>
-            </section>
-        </div>
+    <!-- Navegação -->
+    <div class="nav-buttons">
+      <a href="#" class="nav-btn active" onclick="showSection('curso')"><i class="fas fa-graduation-cap"></i> Sobre o Curso</a>
+      <a href="#" class="nav-btn" onclick="showSection('ia')"><i class="fas fa-robot"></i> IA e Tecnologia</a>
+      <a href="#" class="nav-btn" onclick="showSection('setec')"><i class="fas fa-users"></i> SETEC</a>
+    </div>
+
+    <!-- Conteúdo -->
+    <div class="content">
+      <!-- Seção 1: Curso -->
+      <div id="curso" class="section active">
+        <section class="section-intro">
+          <h2>Sobre o Curso</h2>
+          <p>O curso de Desenvolvimento de Sistemas é muito bom, aprendemos várias coisas. Aqui temos computadores disponíveis para todos os alunos, para aprenderem e aperfeiçoar seus trabalhos e os professores sempre estão dispostos a ajudar e a ensinar coisas novas.</p>
+        </section>
+
+        <section class="image-gallery">
+          <img src="IMG_20250901_180755.jpg" alt="Imagem do laboratório de informática" width="400">
+          <img src="IMG_20250901_180817.jpg" alt="Outra imagem do laboratório" width="400">
+        </section>
         
+        <section>
+          <h2>O que oferecemos</h2>
+          <p>Nosso curso oferece uma formação completa em desenvolvimento de sistemas, com foco em programação, banco de dados, análise de sistemas e gestão de projetos. Preparamos nossos alunos para os desafios do mercado de trabalho com uma abordagem prática e atualizada.</p>
+          
+          <p>Com laboratórios modernos e professores qualificados, proporcionamos a melhor experiência de aprendizado para formar profissionais capacitados para atuar no mercado de tecnologia.</p>
+        </section>
+      </div>
+
+      <!-- Seção 2: IA -->
+      <div id="ia" class="section">
+        <section>
+          <h2>O que é IA?</h2>
+          <p>A Inteligência Artificial (IA) é um ramo da ciência da computação que busca criar sistemas capazes de simular a inteligência humana, aprendendo, raciocinando e tomando decisões de forma autônoma. Ela está presente em assistentes virtuais, carros autônomos, reconhecimento facial e muito mais.</p>
+        </section>
+
+        <section>
+          <h2>Vídeos sobre IA</h2>
+          <div class="video-gallery">
+            <a href="https://www.youtube.com/watch?v=1hHMwLxN6EM" target="_blank">
+              <img src="https://img.youtube.com/vi/1hHMwLxN6EM/0.jpg" alt="Vídeo sobre IA na saúde" width="400">
+            </a>
+            <a href="https://www.youtube.com/watch?v=UwsrzCVZAb8" target="_blank">
+              <img src="https://img.youtube.com/vi/UwsrzCVZAb8/0.jpg" alt="Vídeo sobre IA no mercado de trabalho" width="400">
+            </a>
+            <a href="https://www.youtube.com/watch?v=2ePf9rue1Ao" target="_blank">
+              <img src="https://img.youtube.com/vi/2ePf9rue1Ao/0.jpg" alt="Vídeo sobre IA no cotidiano" width="400">
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <!-- Seção 3: SETEC -->
+      <div id="setec" class="section">
+        <section>
+          <h2>O que é a SETEC?</h2>
+          <p>A SETEC (Semana de Educação, Tecnologia e Ciência) é um evento que reúne alunos, professores e profissionais da área tecnológica para compartilhar experiências, participar de palestras, workshops e atividades que aproximam os estudantes do mercado de trabalho.</p>
+        </section>
+
+        <section>
+          <h2>Importância</h2>
+          <p>Esse evento é essencial para incentivar a inovação, fortalecer o aprendizado prático e promover a integração entre educação e tecnologia, formando profissionais mais preparados para os desafios do futuro.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script para alternar seções -->
+  <script>
+    function showSection(id) {
+      // esconde todas as seções
+      document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
+      // mostra a escolhida
+      document.getElementById(id).classList.add('active');
+      // troca destaque do menu
+      document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+      event.target.closest("a").classList.add('active');
+    }
+  </script>
 </body>
-</html>
+      </html>
