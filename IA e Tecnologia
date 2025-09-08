@@ -1,1 +1,90 @@
-k,
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA e Tecnologia - Desenvolvimento de Sistemas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-laptop-code"></i>
+            </div>
+            <h1>IA e Tecnologia</h1>
+            <p>Explorando o futuro da inteligência artificial</p>
+        </header>
+        
+        <div class="nav-buttons">
+            <a href="index.html" class="nav-btn">
+                <i class="fas fa-graduation-cap"></i> Sobre o Curso
+            </a>
+            <a href="ia-tecnologia.html" class="nav-btn active">
+                <i class="fas fa-robot"></i> IA e Tecnologia
+            </a>
+            <a href="setec.html" class="nav-btn">
+                <i class="fas fa-users"></i> SETEC
+            </a>
+        </div>
+        
+        <div class="content">
+            <section id="ia-videos">
+                <h2>IA e Tecnologia</h2>
+
+                <div class="topic">
+                    <a href="https://www.youtube.com/embed/sA2na2WNjCY" target="_blank" class="video-link">
+                        <i class="fab fa-youtube"></i> Assistir no YouTube: IA na Saúde
+                    </a>
+                    <div class="topic-content">
+                        <h3>IA na Saúde</h3>
+                        <p>A IA na saúde aprimora o diagnóstico, acelera a descoberta de medicamentos e personaliza tratamentos. Ela ajuda médicos a analisar exames e a monitorar pacientes, agilizando o atendimento. Embora traga desafios como ética e privacidade, a IA é uma ferramenta poderosa para tornar o sistema de saúde mais preciso e eficiente, atuando como uma aliada para os profissionais e para os pacientes.</p>
+                    </div>
+                </div>
+
+                <div class="topic">
+                    <a href="https://www.youtube.com/embed/PzaTe78MX0E" target="_blank" class="video-link">
+                        <i class="fab fa-youtube"></i> Assistir no YouTube: IA no Mercado de Trabalho
+                    </a>
+                    <div class="topic-content">
+                        <h3>IA no Mercado de Trabalho</h3>
+                        <p>A IA está mudando o mercado de trabalho, automatizando tarefas repetitivas e criando novas funções. Para se destacar, é crucial focar em habilidades humanas, como criatividade e pensamento crítico, e em habilidades técnicas, como a análise de dados. A IA não vai substituir as pessoas, mas sim transformar as profissões, tornando o aprendizado contínuo uma necessidade para se adaptar a essa nova era.</p>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <a href="https://www.youtube.com/embed/YhKAuuq_YZ4" target="_blank" class="video-link">
+                        <i class="fab fa-youtube"></i> Assistir no YouTube: IA no Cotidiano
+                    </a>
+                    <div class="topic-content">
+                        <h3>IA no Cotidiano</h3>
+                        <p>A IA já faz parte do nosso dia a dia em diversas formas, como nos assistentes virtuais (Siri e Alexa), nas recomendações personalizadas de filmes e músicas, e nos aplicativos de navegação (Waze e Google Maps). Ela torna nossa rotina mais fácil, organizando e-mails, melhorando fotos e aumentando a segurança online, agindo de forma invisível para otimizar nossa vida.</p>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <a href="https://www.youtube.com/embed/nJru0cQDDPA" target="_blank" class="video-link">
+                        <i class="fab fa-youtube"></i> Assistir no YouTube: IA na Educação
+                    </a>
+                    <div class="topic-content">
+                        <h3>IA na Educação</h3>
+                        <p>A IA na educação personaliza o aprendizado, atuando como tutor virtual e adaptando o conteúdo para cada aluno. Ela também automatiza tarefas administrativas, liberando tempo para professores, e auxilia na criação de materiais didáticos. Embora traga desafios como a privacidade de dados, a IA é uma ferramenta para tornar o ensino mais eficiente e focado nas necessidades individuais dos estudantes.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <footer>
+            <p>Curso de Desenvolvimento de Sistemas &copy; 2023</p>
+            <p>Contato: desenvolvementsistemas@exemplo.com | (11) 1234-5678</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
