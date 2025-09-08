@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SETEC</title>
+    <style>
+        /* Cole aqui o mesmo estilo da página index.html */
+    </style>
+</head>
+<body>
 
+    <header>
+        <h1>SETEC</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Sobre o Curso</a></li>
+            <li><a href="ia-tecnologia.html">IA e Tecnologia</a></li>
+            <li><a href="setec.html" class="active">SETEC</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="setec-info">
+            <h2>Sobre a SETEC</h2>
+            <p>Aqui falaremos sobre o projeto que o curso de Desenvolvimento oferece, a SETEC. Nela, todos os alunos se reúnem em grupos para fazer um trabalho em equipe sobre vários temas, e no final, ganham um certificado de presença e aprendizagem. Para o futuro, a SETEC poderia abordar temas de diversas maneiras, em conjunto com a inteligência artificial e algo mais envolvendo a aprendizagem escolar. Poderia ser apresentada de maneiras diferentes, em forma de vídeos com falas para a explicação, entre outros.</p>
+            <p>Um tema interessante para se trabalhar em relação à SETEC seria a IA na educação, assim todos saberiam a importância e os benefícios que a inteligência artificial traz para a atualidade escolar.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Curso de Desenvolvimento de Sistemas &copy; 2023</p>
+    </footer>
+
+</body>
+</html>
