@@ -3,138 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso de Desenvolvimento de Sistemas</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Site</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="logo">
-                <i class="fas fa-laptop-code"></i>
+
+    <header>
+        <h1>Sobre o Curso de Desenvolvimento de Sistemas</h1>
+    </header>
+
+    <main>
+        <section class="section-intro">
+            <h1>O curso de Desenvolvimento de Sistemas é muito bom, aprendemos várias coisas. Aqui temos computadores disponíveis para todos os alunos, para aprenderem e aperfeiçoar seus trabalhos e os professores sempre estão dispostos a ajudar e a ensinar coisas novas.</h1>
+        </section>
+
+        <section class="image-gallery">
+            <img src="IMG_20250901_180755.jpg" alt="Imagem do laboratório de informática" width="200">
+            <img src="IMG_20250901_180817.jpg" alt="Outra imagem do laboratório" width="200">
+        </section>
+
+        <hr>
+
+        <section id="ia-videos">
+            <h2>IA e Tecnologia</h2>
+
+             <div class="topic">
+                <div class="video-container">
+                    <iframe 
+
+                        src="https://www.youtube.com/embed/sA2na2WNjCY" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="topic-content">
+                    <h3>IA na Saúde</h3>
+                    <p>A IA na saúde aprimora o diagnóstico, acelera a descoberta de medicamentos e personaliza tratamentos. Ela ajuda médicos a analisar exames e a monitorar pacientes, agilizando o atendimento. Embora traga desafios como ética e privacidade, a IA é uma ferramenta poderosa para tornar o sistema de saúde mais preciso e eficiente, atuando como uma aliada para os profissionais e para os pacientes.</p>
+                </div>
             </div>
-            <h1>Curso de Desenvolvimento de Sistemas</h1>
-            <p>Preparando os profissionais de tecnologia do futuro</p>
-        </header>
-        
-        <div class="tabs">
-            <button class="tab-button active" onclick="openTab('sobre-curso')">
-                <i class="fas fa-graduation-cap"></i> Sobre o Curso
-            </button>
-            <button class="tab-button" onclick="openTab('ia-tecnologia')">
-                <i class="fas fa-robot"></i> IA e Tecnologia
-            </button>
-            <button class="tab-button" onclick="openTab('setec')">
-                <i class="fas fa-users"></i> SETEC
-            </button>
-        </div>
-        
-        <div id="sobre-curso" class="tab-content active">
-            <section class="section-intro">
-                <h1>O curso de Desenvolvimento de Sistemas é muito bom, aprendemos várias coisas. Aqui temos computadores disponíveis para todos os alunos, para aprenderem e aperfeiçoar seus trabalhos e os professores sempre estão dispostos a ajudar e a ensinar coisas novas.</h1>
-            </section>
 
-            <section class="image-gallery">
-                <img src="https://placehold.co/600x400/2c3e50/ffffff?text=Laboratório+de+Informática" alt="Imagem do laboratório de informática" width="400">
-                <img src="https://placehold.co/600x400/3498db/ffffff?text=Alunos+em+Aula" alt="Outra imagem do laboratório" width="400">
-            </section>
-            
-            <section>
-                <h2>O que oferecemos</h2>
-                <p>Nosso curso oferece uma formação completa em desenvolvimento de sistemas, com foco em programação, banco de dados, análise de sistemas e gestão de projetos. Preparamos nossos alunos para os desafios do mercado de trabalho com uma abordagem prática e atualizada.</p>
-            </section>
-        </div>
-        
-        <div id="ia-tecnologia" class="tab-content">
-            <section id="ia-videos">
-                <h2>IA e Tecnologia</h2>
-
-                <div class="topic">
-                    <a href="https://www.youtube.com/embed/sA2na2WNjCY" target="_blank" class="video-link">
-                        <i class="fab fa-youtube"></i> Assistir no YouTube: IA na Saúde
-                    </a>
-                    <div class="topic-content">
-                        <h3>IA na Saúde</h3>
-                        <p>A IA na saúde aprimora o diagnóstico, acelera a descoberta de medicamentos e personaliza tratamentos. Ela ajuda médicos a analisar exames e a monitorar pacientes, agilizando o atendimento. Embora traga desafios como ética e privacidade, a IA é uma ferramenta poderosa para tornar o sistema de saúde mais preciso e eficiente, atuando como uma aliada para os profissionais e para os pacientes.</p>
-                    </div>
+            <div class="topic">
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/PzaTe78MX0E" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
                 </div>
-
-                <div class="topic">
-                    <a href="https://www.youtube.com/embed/PzaTe78MX0E" target="_blank" class="video-link">
-                        <i class="fab fa-youtube"></i> Assistir no YouTube: IA no Mercado de Trabalho
-                    </a>
-                    <div class="topic-content">
-                        <h3>IA no Mercado de Trabalho</h3>
-                        <p>A IA está mudando o mercado de trabalho, automatizando tarefas repetitivas e criando novas funções. Para se destacar, é crucial focar em habilidades humanas, como criatividade e pensamento crítico, e em habilidades técnicas, como a análise de dados. A IA não vai substituir as pessoas, mas sim transformar as profissões, tornando o aprendizado contínuo uma necessidade para se adaptar a essa nova era.</p>
-                    </div>
+                <div class="topic-content">
+                    <h3>IA no Mercado de Trabalho</h3>
+                    <p>A IA está mudando o mercado de trabalho, automatizando tarefas repetitivas e criando novas funções. Para se destacar, é crucial focar em habilidades humanas, como criatividade e pensamento crítico, e em habilidades técnicas, como a análise de dados. A IA não vai substituir as pessoas, mas sim transformar as profissões, tornando o aprendizado contínuo uma necessidade para se adaptar a essa nova era.</p>
                 </div>
-                
-                <div class="topic">
-                    <a href="https://www.youtube.com/embed/YhKAuuq_YZ4" target="_blank" class="video-link">
-                        <i class="fab fa-youtube"></i> Assistir no YouTube: IA no Cotidiano
-                    </a>
-                    <div class="topic-content">
-                        <h3>IA no Cotidiano</h3>
-                        <p>A IA já faz parte do nosso dia a dia em diversas formas, como nos assistentes virtuais (Siri e Alexa), nas recomendações personalizadas de filmes e músicas, e nos aplicativos de navegação (Waze e Google Maps). Ela torna nossa rotina mais fácil, organizando e-mails, melhorando fotos e aumentando a segurança online, agindo de forma invisível para otimizar nossa vida.</p>
-                    </div>
-                </div>
-                
-                <div class="topic">
-                    <a href="https://www.youtube.com/embed/nJru0cQDDPA" target="_blank" class="video-link">
-                        <i class="fab fa-youtube"></i> Assistir no YouTube: IA na Educação
-                    </a>
-                    <div class="topic-content">
-                        <h3>IA na Educação</h3>
-                        <p>A IA na educação personaliza o aprendizado, atuando como tutor virtual e adaptando o conteúdo para cada aluno. Ela também automatiza tarefas administrativas, liberando tempo para professores, e auxilia na criação de materiais didáticos. Embora traga desafios como a privacidade de dados, a IA é uma ferramenta para tornar o ensino mais eficiente e focado nas necessidades individuais dos estudantes.</p>
-                    </div>
-                </div>
-            </section>
-        </div>
-        
-        <div id="setec" class="tab-content">
-            <section class="setec-info">
-                <h2>Sobre a SETEC</h2>
-                <p>Aqui falaremos sobre o projeto que o curso de Desenvolvimento oferece, a SETEC. Nela, todos os alunos se reúnem em grupos para fazer um trabalho em equipe sobre vários temas, e no final, ganham um certificado de presença e aprendizagem. Para o futuro, a SETEC poderia abordar temas de diversas maneiras, em conjunto com a inteligência artificial e algo mais envolvendo a aprendizagem escolar. Poderia ser apresentada de maneiras diferentes, em forma de vídeos com falas para a explicação, entre outros.</p>
-                <p>Um tema interessante para se trabalhar em relação à SETEC seria a IA na educação, assim todos saberiam a importância e os benefícios que a inteligência artificial traz para a atualidade escolar.</p>
-                <p>A SETEC promove a integração entre teoria e prática, permitindo que os alunos desenvolvam projetos reais que solucionam problemas do mundo real. Essa experiência é fundamental para a formação de profissionais completos e preparados para o mercado de trabalho.</p>
-            </section>
-            
-            <section class="image-gallery">
-                <img src="https://placehold.co/600x400/2c3e50/ffffff?text=Projeto+SETEC" alt="Projeto SETEC" width="400">
-                <img src="https://placehold.co/600x400/3498db/ffffff?text=Alunos+em+Grupo" alt="Alunos trabalhando em grupo" width="400">
-            </section>
-        </div>
-        
-        <footer>
-            <p>Curso de Desenvolvimento de Sistemas &copy; 2023</p>
-            <p>Contato: desenvolvementsistemas@exemplo.com | (11) 1234-5678</p>
-            <div class="social-icons">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
-        </footer>
-    </div>
+            
+            <div class="topic">
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/YhKAuuq_YZ4" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="topic-content">
+                    <h3>IA no Cotidiano</h3>
+                    <p>A IA já faz parte do nosso dia a dia em diversas formas, como nos assistentes virtuais (Siri e Alexa), nas recomendações personalizadas de filmes e músicas, e nos aplicativos de navegação (Waze e Google Maps). Ela torna nossa rotina mais fácil, organizando e-mails, melhorando fotos e aumentando a segurança online, agindo de forma invisível para otimizar nossa vida.</p>
+                </div>
+            </div>
+            
+            <div class="topic">
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/nJru0cQDDPA" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="topic-content">
+                    <h3>IA na Educação</h3>
+                    <p>A IA na educação personaliza o aprendizado, atuando como tutor virtual e adaptando o conteúdo para cada aluno. Ela também automatiza tarefas administrativas, liberando tempo para professores, e auxilia na criação de materiais didáticos. Embora traga desafios como a privacidade de dados, a IA é uma ferramenta para tornar o ensino mais eficiente e focado nas necessidades individuais dos estudantes.</p>
+                </div>
+            </div>
 
-    <script>
-        function openTab(tabId) {
-            // Esconder todas as abas
-            const tabs = document.getElementsByClassName('tab-content');
-            for (let i = 0; i < tabs.length; i++) {
-                tabs[i].classList.remove('active');
-            }
-            
-            // Desativar todos os botões
-            const buttons = document.getElementsByClassName('tab-button');
-            for (let i = 0; i < buttons.length; i++) {
-                buttons[i].classList.remove('active');
-            }
-            
-            // Ativar a aba e botão selecionados
-            document.getElementById(tabId).classList.add('active');
-            event.currentTarget.classList.add('active');
-        }
-    </script>
+        </section>
+
+        <hr>
+
+        <section class="setec-info">
+            <h2>Sobre a SETEC</h2>
+            <p>Aqui falaremos sobre o projeto que o curso de Desenvolvimento oferece, a SETEC. Nela, todos os alunos se reúnem em grupos para fazer um trabalho em equipe sobre vários temas, e no final, ganham um certificado de presença e aprendizagem. Para o futuro, a SETEC poderia abordar temas de diversas maneiras, em conjunto com a inteligência artificial e algo mais envolvendo a aprendizagem escolar. Poderia ser apresentada de maneiras diferentes, em forma de vídeos com falas para a explicação, entre outros.</p>
+            <p>Um tema interessante para se trabalhar em relação à SETEC seria a IA na educação, assim todos saberiam a importância e os benefícios que a inteligência artificial traz para a atualidade escolar.</p>
+        </section>
+    </main>
+
 </body>
 </html>
+
