@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre o Curso - Desenvolvimento de Sistemas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-laptop-code"></i>
+            </div>
+            <h1>Curso de Desenvolvimento de Sistemas</h1>
+            <p>Preparando os profissionais de tecnologia do futuro</p>
+        </header>
+        
+        <div class="nav-buttons">
+            <a href="index.html" class="nav-btn active">
+                <i class="fas fa-graduation-cap"></i> Sobre o Curso
+            </a>
+            <a href="ia-tecnologia.html" class="nav-btn">
+                <i class="fas fa-robot"></i> IA e Tecnologia
+            </a>
+            <a href="setec.html" class="nav-btn">
+                <i class="fas fa-users"></i> SETEC
+            </a>
+        </div>
+        
+        <div class="content">
+            <section class="section-intro">
+                <h1>O curso de Desenvolvimento de Sistemas é muito bom, aprendemos várias coisas. Aqui temos computadores disponíveis para todos os alunos, para aprenderem e aperfeiçoar seus trabalhos e os professores sempre estão dispostos a ajudar e a ensinar coisas novas.</h1>
+            </section>
 
+            <section class="image-gallery">
+                <img src="https://placehold.co/600x400/2c3e50/ffffff?text=Laboratório+de+Informática" alt="Imagem do laboratório de informática" width="400">
+                <img src="https://placehold.co/600x400/3498db/ffffff?text=Alunos+em+Aula" alt="Outra imagem do laboratório" width="400">
+            </section>
+            
+            <section>
+                <h2>O que oferecemos</h2>
+                <p>Nosso curso oferece uma formação completa em desenvolvimento de sistemas, com foco em programação, banco de dados, análise de sistemas e gestão de projetos. Preparamos nossos alunos para os desafios do mercado de trabalho com uma abordagem prática e atualizada.</p>
+                
+                <p>Com laboratórios modernos e professores qualificados, proporcionamos a melhor experiência de aprendizado para formar profissionais capacitados para atuar no mercado de tecnologia.</p>
+            </section>
+        </div>
+        
+        <footer>
+            <p>Curso de Desenvolvimento de Sistemas &copy; 2023</p>
+            <p>Contato: desenvolvementsistemas@exemplo.com | (11) 1234-5678</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
